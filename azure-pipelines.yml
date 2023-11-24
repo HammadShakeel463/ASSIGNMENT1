@@ -3,10 +3,10 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
+pr:
   branches:
     include:
-      - main
+    - main
 pool:
   name: Default
 
